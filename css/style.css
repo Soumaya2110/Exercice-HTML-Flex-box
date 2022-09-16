@@ -1,0 +1,67 @@
+body {
+    border: 1px solid black;
+}
+
+#title {
+
+    display: flex;
+    justify-content:space-around;
+    margin: 10px;
+    
+    
+  
+}
+#nav {
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 8px;
+}
+
+#article {
+    width:50%;
+ 
+}
+
+#article1 {
+    background-color: red;
+    color: blue;
+    border : 1px solid black;
+    margin : 10px;
+    padding: 12px;
+   
+}
+
+
+#article2 {
+    background-color: yellow;
+    color: green;
+    border : 1px solid black;
+    margin : 10px;
+    padding: 12px;
+  
+}
+
+#aside {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+   background-color: grey;
+   color: black;
+   border: 1px solid black;
+   margin: 10px;
+   padding: 12px;
+
+
+
+}
+
+
+#contact {
+    border: 1px solid black;
+    padding: 12px;
+    margin : 10px;
+}
