@@ -1,69 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <title>Cours</title>
-
+        <title>Exercice Html-Flexbox</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
 
     <body>
-        <header id="accueil">
 
-            <div id="title">
-                <img src="image/logo.png" alt="logo" width=50px/>
-                <h1>Title</h1>
-            </div>
-            <br><br>
+<header id="accueil"></header>
 
-           
-            
-
-            <div id="nav">
-                <nav>
-                    
-                       <a href="#accueil">Accueil</a>
-                       <a href="#article">Article</a>
-                       <a href="#contact">Contact</a>
-                    
-                </nav>
-            </div>
-            
-        </header>
-<br><br>
-        <main>
-            <section id="article">
-
-                <article id="article1">
-                   <p>What is Lorem Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                </article>
-<br><br>
-                <article id="article2">
-                    <p>Why do we use it?
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                </article>
-            </section>
-
-        <br><br>
-        
-<div id="aside">
-        <aside>
-           <p>What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </aside>
-
-</div>
-</main>
-
-      <div id="contact">
-         <footer>
-            <p>Contact</p>
-            <p>Mention légales</p>
-            <p>Copyright &copy;</p>
-            
-        </footer>
+        <div id="container1">
+            <img src="image/logo.png" alt="logo" width="100px"/>
+            <h1>Titre</h1>  
         </div>
+
+
+
+
+
+
+
+
+        <div id="container2">
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#articles">Articles</a>
+                <a href="#mentions">Mentions légales</a>
+            </nav>
+        </div>
+
+
+
+
+
+        <main id="container3">
+            <div id="articles">
+                <article class="art">
+                    <p>Lorem  Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </article>
+
+                <article class="art">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </article>
+            </div>
+
+            <aside id="aside">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </aside>
+        </main>
+
+
+
+
+        <footer id="container4">
+            <p id="mentions">Copyright &copy;</p>
+        </footer> 
+        
+        
+
     </body>
 </html>
