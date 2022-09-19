@@ -6,13 +6,13 @@
 
 }
 
-#container2 {
+/*#container2 {
 
     display: flex;
     justify-content: space-evenly;
     border: 1px solid blue;
     margin: 20px;
-}
+}*/
 
 #container3 {
     border: 1px solid green;
@@ -45,4 +45,10 @@
     border: 1px solid pink;
     margin: 20px;
     padding: 15px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
