@@ -27,8 +27,8 @@ ul {
     justify-content: space-around;
 }
 
-main{
-    border: 1px solid green;
+main{ 
+   
     margin: 20px;
     display: flex;
     align-items: flex-end;
